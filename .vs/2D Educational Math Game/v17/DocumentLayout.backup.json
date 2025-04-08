@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Game Development\\2D Educational Math Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|d:\\game development\\2d educational math game\\assets\\volumesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\volumesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|d:\\game development\\2d educational math game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\iproblemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iproblemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\fadeoutanimationtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fadeoutanimationtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\problemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\problemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\levelsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|D:\\Game Development\\2D Educational Math Game\\assets\\scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DB4F0A-6592-5791-87CF-AE1882798BBC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VolumeSettings.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\VolumeSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\VolumeSettings.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\VolumeSettings.cs",
+              "RelativeToolTip": "Assets\\VolumeSettings.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T04:17:11.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EncryptionUtility.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\EncryptionUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EncryptionUtility.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\EncryptionUtility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EncryptionUtility.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T15:18:27.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:38:23.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:41:59.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProblemFactory.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\IProblemFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IProblemFactory.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\IProblemFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IProblemFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:27:06.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProblemFactory.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\ProblemFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProblemFactory.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\ProblemFactory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProblemFactory.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:27:13.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Problem.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\Problem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Problem.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\Problem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Problem.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:27:12.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAQwGcBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T11:27:04.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LevelSettings.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\LevelSettings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSettings.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\LevelSettings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:16:40.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UI.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAxwEIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:00:15.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAA0wFsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:04:21.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerInfo.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\PlayerInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInfo.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\PlayerInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:03:32.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Level.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\Level.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Level.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\Level.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:43:48.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FadeOutAnimationText.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\FadeOutAnimationText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FadeOutAnimationText.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\FadeOutAnimationText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FadeOutAnimationText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:14:31.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Obstacle.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacle.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\Obstacle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Obstacle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:06:56.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ObstacleSpawner.cs",
+              "DocumentMoniker": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleSpawner.cs",
+              "ToolTip": "D:\\Game Development\\2D Educational Math Game\\Assets\\Scripts\\ObstacleSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObstacleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:06:57.659Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

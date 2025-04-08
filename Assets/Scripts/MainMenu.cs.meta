@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 53a9b55eb1e542d44870b06511c1fd35
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - levelPanel: {instanceID: 0}
+  - mainPanel: {instanceID: 0}
+  - levelButton: {instanceID: 0}
+  - levelButtonPrefab: {instanceID: 0}
+  - levelPanelPrefab: {instanceID: 0}
+  - levelButtonPanel: {instanceID: 0}
+  - levelButtonPanelPrefab: {instanceID: 0}
+  - levelButtonPanelParent: {instanceID: 0}
+  - levelButtonPanelParentPrefab: {instanceID: 0}
+  - levelButtonPanelParentParent: {instanceID: 0}
+  - levelButtonPanelParentParentPrefab: {instanceID: 0}
+  - levelButtonPanelParentParentParent: {instanceID: 0}
+  - lv1Settings: {instanceID: 0}
+  - lv2Settings: {instanceID: 0}
+  - lv3Settings: {fileID: 11400000, guid: 342087dad044a34419f11ad99a24ee14, type: 2}
+  - lv4Settings: {instanceID: 0}
+  - lv5Settings: {instanceID: 0}
+  - lv6Settings: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

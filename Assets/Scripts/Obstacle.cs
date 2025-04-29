@@ -11,7 +11,8 @@ public class Obstacle : MonoBehaviour
 
     void Start ()
     {
-        //Destroy(gameObject, aliveTime);
+        if (SlowDownEffect.IsActive)
+        moveSpeed *= SlowDownEffect.CurrentFactor;
     }
 
     void Update ()

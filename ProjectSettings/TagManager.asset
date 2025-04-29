@@ -9,6 +9,9 @@ TagManager:
   - Obstacle
   - PlayArea
   - Audio
+  - Laser
+  - Pickup
+  - Wind
   layers:
   - Default
   - TransparentFX
@@ -49,14 +52,26 @@ TagManager:
   - name: Background
     uniqueID: 1939034537
     locked: 0
+  - name: Wind
+    uniqueID: 2150449709
+    locked: 0
+  - name: Laser
+    uniqueID: 3444852525
+    locked: 0
   - name: Jetpack
     uniqueID: 3194050489
     locked: 0
   - name: Player
     uniqueID: 2728622073
     locked: 0
+  - name: Player Shield
+    uniqueID: 1040429469
+    locked: 0
   - name: Obstacle
     uniqueID: 4202771577
+    locked: 0
+  - name: Pickup
+    uniqueID: 4263275075
     locked: 0
   - name: Ship
     uniqueID: 2400763485

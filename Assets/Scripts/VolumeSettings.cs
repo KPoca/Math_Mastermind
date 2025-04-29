@@ -49,7 +49,7 @@ public class VolumeSettings : MonoBehaviour
     }
     public void BackToMenu()
     {
-        audioManager.PlaySFX(audioManager.click);
+        audioManager?.PlaySFX(audioManager?.click);
         PlayerPrefs.Save();
         SceneManager.LoadSceneAsync(0);
     }

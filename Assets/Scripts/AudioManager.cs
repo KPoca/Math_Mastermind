@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
@@ -14,6 +14,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip rightAnswer;
     public AudioClip wrongAnswer;
     public AudioClip jetpack;
+    public AudioClip healPickup;
+    public AudioClip slowDownPickup;
+    public AudioClip shieldHit;
+    public AudioClip shieldPickup;
     public static AudioManager instance;
     void Awake()
     {
@@ -33,14 +37,12 @@ public class AudioManager : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        // Dừng nhạc khi game tắt
         AudioSource audioSource = GetComponent<AudioSource>();
         audioSource.Stop();
     }
     public void PlaySFX(AudioClip clip)
     {
-        //sfxSource.clip = clip;
-        //sfxSource.Play();
+        if (clip == null) return;
         sfxSource.PlayOneShot(clip);
     }
 

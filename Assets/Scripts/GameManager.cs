@@ -141,7 +141,6 @@ public class GameManager : MonoBehaviour
 
         UI.instance.SetScoreText(player.score);
         Debug.Log(LoadHighScore()); //Debug
-        UI.instance.SetHighScoreText(LoadHighScore());
         //// Gắn sự kiện cho các nút trả lời
         //for (int i = 0; i < 4; i++)
         //{
@@ -346,7 +345,7 @@ public class GameManager : MonoBehaviour
     // called when the player enters the incorrect tube
     void IncorrectAnswer()
     {
-        minusScore(10);
+        player.GetComponent<PlayerStatus>().TakeDamage(1); // NEW – trừ 1 máu
         player.Stun();
     }
 
@@ -359,7 +358,7 @@ public class GameManager : MonoBehaviour
     //}
 
     // called when the player answers all the problems
-    void Win()
+    public void Win()
     {
         audioManager.PlaySFX(audioManager.win);
         UpdateHighScore(player.score);
@@ -408,7 +407,7 @@ public class GameManager : MonoBehaviour
     }
 
     // called if the remaining time on a problem reaches 0
-    void Lose()
+    public void Lose()
     {
         UpdateHighScore(player.score);
         audioManager.PlaySFX(audioManager.gameOver);

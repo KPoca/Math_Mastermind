@@ -16,3 +16,5 @@ MonoBehaviour:
   spawnRate: 0.8
   timePerProblem: 45
   numberOfProblems: 15
+  pickupMultiplier: 0.5
+  windMultiplier: 1

@@ -9,6 +9,7 @@ public enum PlayerState
     Flying,     // 2
     Stunned     // 3
 }
+
 public class PlayerController : MonoBehaviour
 {
     public PlayerState curState;            // current player state
@@ -19,6 +20,13 @@ public class PlayerController : MonoBehaviour
     public bool grounded;                   // is the player currently standing on the ground?
     public float stunDuration;              // duration of a stun
     private float stunStartTime;            // time that the player was stunned
+    public float invincibleDuration = 0.75f;   // time after stun ends
+    public float invincibleAlpha   = 0.5f;   // desired opacity  (0-1)
+    private bool  isInvincible;                // flag
+    private float invincibleStartTime;         // when invincibility began
+    public float windPush;                  // wind push force
+    Color  normalColor;     // store original sprite colour
+    SpriteRenderer spriteRenderer;   // already declared in Awake
 
     // components
     public Rigidbody2D rig;                 // Rigidbody2D component
@@ -26,12 +34,18 @@ public class PlayerController : MonoBehaviour
     public ParticleSystem jetpackParticle;  // ParticleSystem of jetpack
 
     public float minX = -20f, maxX = 20f, minY = -10f, maxY = 10f;  // Biên giới khu vực chơi
-    public int health = 3;  // Số mạng của Player
+    public int currentHealth = 3;  // Số mạng của Player
     public int score = 0;  // Điểm số của Player
     AudioManager audioManager;
+
+    // I frame
+    
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        normalColor    = spriteRenderer.color;
         //audioManager = AudioManager.instance;
         //rig = GetComponent<Rigidbody2D>();
         //anim = GetComponent<Animator>();
@@ -46,11 +60,21 @@ public class PlayerController : MonoBehaviour
         // is the player stunned?
         if (curState == PlayerState.Stunned)
         {
-            // has the player been stunned for the duration?
             if (Time.time - stunStartTime >= stunDuration)
             {
                 curState = PlayerState.Idle;
+
+                // begin i-frames
+                isInvincible        = true;
+                invincibleStartTime = Time.time;
+                SetInvincibleVisual(true);
             }
+        }
+        else if (isInvincible && Time.time - invincibleStartTime >= invincibleDuration)
+        {
+            // i-frames finished
+            isInvincible = false;
+            SetInvincibleVisual(false);
         }
     }
 
@@ -107,17 +131,15 @@ public class PlayerController : MonoBehaviour
     // moves the player horizontally
     void Move ()
     {
-        // get horizontal axis (A & D, Left Arrow & Right Arrow)
         float dir = Input.GetAxis("Horizontal");
 
-        // flip player to face the direction they're moving
-        if (dir > 0)
-            transform.localScale = new Vector3(1, 1, 1);
-        else if (dir < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
+        // flip sprite
+        if (dir > 0)        transform.localScale = Vector3.one;
+        else if (dir < 0)   transform.localScale = new Vector3(-1, 1, 1);
 
-        // set rigidbody horizontal velocity
-        rig.linearVelocity = new Vector2(dir * moveSpeed, rig.linearVelocity.y);
+        // final X velocity = player input + wind
+        float vx = dir * moveSpeed + windPush;
+        rig.linearVelocity = new Vector2(vx, rig.linearVelocity.y);
     }
 
     // adds force upwards to player
@@ -168,16 +190,31 @@ public class PlayerController : MonoBehaviour
     // called when the player enters another object's collider
     void OnTriggerEnter2D (Collider2D col)
     {
-        // if the player isn't already stunned, stun them if the object was an obstacle
-        if (curState != PlayerState.Stunned)
+        if (curState == PlayerState.Stunned || isInvincible) return;
+
+        if (col.GetComponent<Obstacle>() || col.CompareTag("Laser"))
         {
-            // if(col.CompareTag("Obstacle"))
-            if (col.GetComponent<Obstacle>())
+            var shield = GetComponent<PlayerShield>();
+            if (shield != null && shield.ConsumeHit())
             {
-                audioManager.PlaySFX(audioManager.hit);
-                Stun();
+                // absorbed! maybe play a fx / sfx here
+                AudioManager.instance?.PlaySFX(AudioManager.instance.shieldHit);
+                return;
             }
+
+            // no shield → regular damage
+            audioManager.PlaySFX(audioManager.hit);
+            GetComponent<PlayerStatus>().TakeDamage(1);
+            Stun();
         }
+    }
+
+
+    void SetInvincibleVisual(bool on)
+    {
+        Color c = spriteRenderer.color;
+        c.a     = on ? invincibleAlpha : normalColor.a;   // adjust alpha
+        spriteRenderer.color = c;
     }
 }
 
